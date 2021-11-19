@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edison Rental Library Service - Login</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSSFiles/style.css">
+    <link rel="stylesheet" href="../CSSFiles/style2.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info  p-4">
+            <div class="container-fluid">
+                <a class="navbar-brand">Edison Rental Service<sup>&reg;</sup> ::: a CS445 Project</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex">
+                    <a class="my-3 mx-5" id="welcomeguest" href="signUp.html"> 👤 Welcome, Guest</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <form action="" class="loginForm">
+        <div class="row mx-5 my-3 form-group">
+        <p><label class="col-6 form-label" for="email">Email: <input class="col-3 form-control p-2" type="email" id="email" required></label></p>
+        </div>
+        <div class="row mx-5 my-3 form-group">
+        <p><label class="col-6 form-label" for="email">Password: <input class="col-3 form-control p-2" type="password" id="password" required></label></p>
+        </div>
+        <div class="row form-group">
+        <button class="col-6 mx-5 my-3 p-2" id ="login" type="submit">Login</button>
+        </div>
+    </form>
+
+    <script defer src="../JSFiles/login.js"> </script>
+</body>
+</html>
